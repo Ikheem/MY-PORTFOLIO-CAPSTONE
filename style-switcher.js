@@ -5,7 +5,7 @@ document.querySelector(".style-switcher").classList.toggle("open");
 })
 
 window.addEventListener("scroll", () => {
-    if(document.querySelector(".style-switcher").classList.constains("open"))
+    if(document.querySelector(".style-switcher").classList.contains("open"))
     {
         document.querySelector(".style-switcher").classList.remove("open");
     }
@@ -39,7 +39,7 @@ dayNight.addEventListener("click", () =>{
     document.body.classList.toggle("dark");
 })
 window.addEventListener("load", () => {
-    if(document.body.classList.constains("dark"))
+    if(document.body.classList.contains("dark"))
     {
         dayNight.querySelector("i").classList.add("fa-sun");
     }
