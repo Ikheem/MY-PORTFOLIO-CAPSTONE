@@ -98,7 +98,7 @@ const nav = document.querySelector(".nav"),
 $(document).ready(function() {
     $('#btnDownload').click(function(e) {
         e.preventDefault();
-        window.location.href = "Photo-essy.pdf.pdf";
+        window.location.href = "Photo-essy.pdf";
     });
 });
 
@@ -107,10 +107,66 @@ $(document).ready(function() {
      $(document).ready(function() {
         $('#btnDownload').click(function(e) {
             e.preventDefault();
-            window.location.href = "portfolio.cv.pdf";
+            window.location.href = "P1CVInThreeLanguages.pdf";
         });
     });
+
     
+     /* ========== Autobiograpghy powerpoint download script starts ========== */
+
+     $(document).ready(function() {
+        $('#btnDownload').click(function(e) {
+            e.preventDefault();
+            window.location.href = "P3Autobiography.pptx";
+        });
+    });
+
+    /* ========== P4InventionORInnovationVIDEO.pptx  powerpoint download script starts ========== */
+
+    $(document).ready(function() {
+        $('#btnDownload').click(function(e) {
+            e.preventDefault();
+            window.location.href = "P4InventionORInnovationVIDEO.pptx";
+        });
+    });
+
+    /* ========== P5InventionORInnovation.pptx  powerpoint download script starts ========== */
+
+    $(document).ready(function() {
+        $('#btnDownload').click(function(e) {
+            e.preventDefault();
+            window.location.href = "P5InventionORInnovation.pptx";
+        });
+    });
+
+    /* ========== P6AfricanCulture&GenderAwarenessVIDEO.pptx powerpoint download script starts ========== */
+
+    $(document).ready(function() {
+        $('#btnDownload').click(function(e) {
+            e.preventDefault();
+            window.location.href = "P6AfricanCulture&GenderAwarenessVIDEO.pptx";
+        });
+    });
+
+    /* ========== P7Integrating-AC-into-AI-and-ML.pptx powerpoint download script starts ========== */
+
+    $(document).ready(function() {
+        $('#btnDownload').click(function(e) {
+            e.preventDefault();
+            window.location.href = "P7Integrating-AC-into-AI-and-ML.pptx";
+        });
+    });
+
+    /* ==========P8AddressingModernSocietysChallengesSolutionVIDEO.pptx powerpoint download script starts ========== */
+
+    $(document).ready(function() {
+        $('#btnDownload').click(function(e) {
+            e.preventDefault();
+            window.location.href = "P8AddressingModernSocietysChallengesSolutionVIDEO.pptx";
+        });
+    });
+
+
 
 
 
